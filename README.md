@@ -15,13 +15,13 @@ This repository contains source code for the Code for the IJCNN 2023 submission:
 
 #### Download Dependencies
 
-- Download pretrained target models for each dataset [bert](XXXX), [lstm](XXXX), [cnn](XXXX) unzip it.
+- Download pretrained target models for each dataset [bert](https://drive.google.com/file/d/1UChkyjrSJAVBpb3DcPwDhZUE4FuL0J25/view?usp=sharing), [lstm](https://drive.google.com/drive/folders/1nnf3wrYBrSt6F3Ms10wsDTTGFodrRFEW?usp=sharing), [cnn](https://drive.google.com/drive/folders/149Y5R6GIGDpBIaJhgG8rRaOslM21aA0Q?usp=sharing) unzip it.
 
-- Download the counter-fitted-vectors from [here](XXXX) and place it in the main directory.
+- Download the counter-fitted-vectors from [here](https://drive.google.com/file/d/1bayGomljWb6HeYDMTDKXrh0HackKtSlx/view) and place it in the main directory.
 
-- Download top 50 synonym file from [here](XXXX) and place it in the main directory.
+- Download top 50 synonym file from [here](https://drive.google.com/file/d/1AIz8Imvv8OmHxVwY5kx10iwKAUzD6ODx/view) and place it in the main directory.
 
-- Download the glove 200 dimensional vectors from [here](XXXX) unzip it.
+- Download the glove 200 dimensional vectors from [here](https://nlp.stanford.edu/projects/glove/) unzip it.
  
 #### How to Run:
 
@@ -66,11 +66,11 @@ Example of attacking BERT on SNLI dataset.
 python3 entailment.py \
         --target_model bert \
         --target_dataset snli \
-        --target_model_path ../pretrained_models/bert/snli \
-        --dataset_dir ../data/ \
-        --output_dir  ../final_results/ \
-        --word_embeddings_path ../embedding/glove.6B.200d.txt \
-        --counter_fitting_cos_sim_path ../counter-fitted-vectors.txt \
+        --target_model_path pretrained_models/bert/snli \
+        --dataset_dir data/ \
+        --output_dir  final_results/ \
+        --word_embeddings_path embedding/glove.6B.200d.txt \
+        --counter_fitting_cos_sim_path counter-fitted-vectors.txt \
 
 
 ```

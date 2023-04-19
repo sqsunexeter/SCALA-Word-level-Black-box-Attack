@@ -1,7 +1,7 @@
 # SCALA-Word-level-Black-box-Attack
-### Efficient Word-level Black-box Adversarial Textual Generation Based on Hamming Distance
+### An Efficient Word-level Black-box Adversarial Attack against Textual Models
 
-This repository contains source code for the Code for the EMNLP 2022 submission: 
+This repository contains source code for the Code for the IJCNN 2023 submission: 
 
 #### Instructions for running the attack from this repository.
 
